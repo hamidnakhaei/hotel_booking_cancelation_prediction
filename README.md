@@ -16,9 +16,9 @@ In this section, we predict the cancellation of hotel reservations using the ran
 # Conclusion
 The tables below provide a summary of the models obtained by different methods for the two hotels. For the Resort Hotel (H1) data, both the logistic regression and decision tree models perform well; however, the random forest model has low sensitivity, indicating poor performance in identifying actual cancellations. On the other hand, for the City Hotel (H2) data, the random forest model outperforms the other two methods, not only achieving high accuracy but also offering good sensitivity. \
 Evaliuation metrics for H1 hotel \
-![](https://github.com/hamidnakhaei/hotel_booking_cancelation_prediction/blob/2a1e3c31903456aa5eda297d7b7926e0fe6354de/Fig/h1.png) \
+![](https://github.com/hamidnakhaei/hotel_booking_cancelation_prediction/blob/bd15dd632093b3cadef7790d61693da82bc72607/Fig/h1.png) \
 Evaliuation metrics for H2 hotel \
-![](https://github.com/hamidnakhaei/hotel_booking_cancelation_prediction/blob/2a1e3c31903456aa5eda297d7b7926e0fe6354de/Fig/h1.png)
+![](https://github.com/hamidnakhaei/hotel_booking_cancelation_prediction/blob/bd15dd632093b3cadef7790d61693da82bc72607/Fig/h2.png) \
 As observed, model accuracy reaches up to 85%. These results indicate that hotel managers can identify reservations likely to be canceled by employing data mining techniques and can prevent cancellations by offering incentives such as discounts, tickets to attractions, etc.
 
 Among the important variables in both logistic regression and decision tree methods was lead time, with higher values indicating a stronger probability of cancellation. To reduce the impact of this variable on increasing cancellations, hotel managers can offer special discounts for early reservations, thus discouraging customers from canceling their reservations.
